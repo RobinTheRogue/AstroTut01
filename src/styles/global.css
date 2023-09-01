@@ -33,7 +33,7 @@ html {
     margin-bottom: 10px;
     background-color: #ff9776;
   }
-  
+
 .nav-links {
     width: 100%;
     top: 5rem;
@@ -76,4 +76,13 @@ html {
       padding: 15px 20px;
     }
   
+  }
+
+  html.dark {
+    background-color: #0d0950;
+    color: #fff;
+  }
+
+  .dark .nav-links a {
+    color: #fff;
   }
